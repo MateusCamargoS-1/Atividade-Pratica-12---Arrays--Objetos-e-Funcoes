@@ -1,44 +1,3 @@
-// Crie um arquivo com o script necessário para resolução do exercício
-// considerando o seguinte array:
-// const data = [
-//     {
-//     nome: 'Roger Medeiros',
-//     sexo: 'M',
-//     salario: 3250,
-//     },
-//     {
-//     nome: 'Carolina Silva',
-//     sexo: 'F',
-//     salario: 1200,
-//     },
-//     {
-//     nome: 'Cristina Avila',
-//     sexo: 'F',
-//     salario: 8100,
-//     },
-//     {
-//     nome: 'Gustavo Hoffman',
-//     sexo: 'M',
-//     salario: 5200.35,
-//     },
-//     {
-//     nome: 'Eva Trindade',
-//     sexo: 'F',
-//     salario: 2501,
-//     },
-//     {
-//     nome: 'Andre Mathias',
-//     sexo: 'M',
-//     salario: 1750,
-//     },
-//     {
-//     nome: 'Joice Castro da Silva',
-
-//     sexo: 'F',
-//     salario: 3350.25,
-//     },
-//     ];
-
 //     1. Imprima no console a quantidade de pessoas Total.
 //     2. Imprima no console a quantidade de pessoas pessoas do sexo
 //     Feminino.
@@ -124,7 +83,7 @@ console.log(`\nA média do salário de todas as pessoas do sexo Masculino é: R$
 let maiorQue7000 = data.some(pessoa => pessoa.salario > 7000);
 console.log(`\nExistem salario superior a R$7000? ${maiorQue7000}`);
 
-// 8. Utilize a função findIndex, para descobrir a posição da pessoa de nome 'Eva Trindade'.
+// 8. Utilize a função findIndex, para descobrir a posição da pessoa de nome 'Eva Trindade' .
 let evaTrindade = data.findIndex(pessoa => pessoa.nome === 'Eva Trindade');
 console.log(`\nA posição da pessoa com nome Eva Trindade é ${evaTrindade}`);
 
